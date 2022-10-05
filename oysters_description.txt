@@ -1,0 +1,81 @@
+NAME: Oyster Volume Estimation Data
+TYPE: Calibration experiment
+SIZE: 30 observations, 5 variables 
+
+DESCRIPTIVE ABSTRACT:
+The data set contains the results of a calibration experiment designed to estimate volume of 
+oysters and to compare two computer vision systems (2-D vs. 3-D) for classification of oysters 
+based on their image size in number of pixels. 
+
+SOURCES: 
+These data were collected in 2001 in a research and development lab at AGRI-TECH Inc., Woodstock, 
+VA, for calibrating an oyster volume estimation system. Information on how the data was collected 
+can be found in "Three-dimension Reconstruction for High-speed Volume Measurement," Proceedings of 
+the International Society for Optical Engineering, 2001. A similar dataset was used in this paper.
+
+VARIABLE DESCRIPTIONS:
+
+Datasets: 30oysters.dat (20oysters.dat is a random sample from 30oyster.dat)
+
+Columns	Variables
+ 1- 2		Oyster ID
+11-15		Oyster weight (g)
+27-31		Oyster volume (cc)
+44-50		Oyster size information from the 3-D imaging system (in volume pixels) 
+54-58		Oyster size information from the 2-D imaging system (in pixels) 
+
+Values are aligned and delimited by blanks.  There are no missing values.
+ 
+STORY BEHIND THE DATA:
+Shucking and grading of oysters is a very labor intensive and tedious task.  An automated oyster 
+meat grading system integrated with the shucking and packing equipment can totally eliminate human 
+handling of oyster meat, save cost, and increase the accuracy of oyster grading and shucking. For 
+a request from a client in oyster packing industry, a group of engineers and scientists was 
+attempting to design a more efficient 3-D computer vision measurement system for oyster 
+classification to improve on the existing 2-D system for oyster sorting. Oysters are defined to be 
+small, medium, or large if their volume falls in (0,10], [10, 13), [13, inf), respectively. Data 
+on 30 oysters (10 small, 10 medium, and 10 large) were collected in a calibration experiment in 
+which simple linear regression models were used to predict observed oyster volume, one using 
+digital image area (2-D) in pixels as a predictor, one using digital image volume (3-D).
+
+PEDAGOGICAL NOTES:
+These data can be used to demonstrate simple linear regression with a very clean linear trend, 
+and to establish the calibration equation for estimating the volume of oyster.  Through the 
+process of volume estimation modeling, statistics can be generated for comparing the 
+performance of the 2-D and 3-D systems. There are many criteria can be used, such as 
+prediction errors, coefficient of determination, and the percentage of correct classification. 
+Other topics include calibration experiments, inverse regression, regression diagnostics, and 
+regression through the origin.
+
+REFERENCE:
+Lee, D., Lane, R., and Chang, G., "Three-dimension Reconstruction for High-speed Volume 
+Measurement," Proceedings of the International Society for Optical Engineering, Machine 
+Vision and Three-Dimensional Imaging Systems for Inspection and Metrology, Volume 4189, 
+p.258-267, 2001.
+
+
+SUBMITTED BY:
+G. Andy Chang
+Department of Mathematics and Statistics
+Youngstown State University
+Youngstown, OH 44555
+gchang@ysu.edu
+
+G. Jay Kerns
+Department of Mathematics and Statistics
+Youngstown State University
+Youngstown, OH 44555
+gkerns@ysu.edu
+
+D. J. Lee
+Department of Electrical and Computer Engineering
+Brigham Young University
+Provo, UT 84602
+djlee@ee.byu.edu
+
+Gary L. Stanek
+Department of Mathematics and Statistics
+Youngstown State University
+Youngstown, OH 44555
+stanek@math.ysu.edu
+
