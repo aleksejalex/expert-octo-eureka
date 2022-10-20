@@ -1,5 +1,6 @@
 """
 QR matrix decomposition (need that for RAD)
+source >>> https://www.quantstart.com/articles/QR-Decomposition-with-Python-and-NumPy/
 
 by AG, 20221020
 """
